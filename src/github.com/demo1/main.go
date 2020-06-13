@@ -18,5 +18,6 @@ func main() {
 	// evenNumbers()
 	// days()
 	// whatday(8)
-	arr1()
+	// arr1()
+	arr2()
 }
