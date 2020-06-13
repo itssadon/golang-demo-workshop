@@ -20,5 +20,6 @@ func main() {
 	// whatday(8)
 	// arr1()
 	// arr2()
-	matrix()
+	// matrix()
+	imatrix(3)
 }
