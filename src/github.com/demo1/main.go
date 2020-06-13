@@ -19,5 +19,6 @@ func main() {
 	// days()
 	// whatday(8)
 	// arr1()
-	arr2()
+	// arr2()
+	matrix()
 }
