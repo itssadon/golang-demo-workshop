@@ -17,5 +17,6 @@ func main() {
 	// oddNumbers()
 	// evenNumbers()
 	// days()
-	whatday(8)
+	// whatday(8)
+	arr1()
 }
