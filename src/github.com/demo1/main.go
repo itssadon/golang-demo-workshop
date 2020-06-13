@@ -22,5 +22,6 @@ func main() {
 	// arr2()
 	// matrix()
 	// imatrix(3)
-	slice1()
+	// slice1()
+	slice2()
 }
