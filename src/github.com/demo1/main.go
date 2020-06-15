@@ -24,5 +24,6 @@ func main() {
 	// imatrix(3)
 	// slice1()
 	// slice2()
-	slice3()
+	// slice3()
+	pointer1()
 }
