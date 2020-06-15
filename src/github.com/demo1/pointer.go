@@ -11,3 +11,15 @@ func pointer1() {
 	fmt.Println("Address", a)
 	fmt.Println("Value", *a)
 }
+
+func pointer2() {
+	c := 5
+	increment(c)
+	increment(c)
+	fmt.Println("Called from Pointer2 Func", c)
+}
+
+func increment(c int) {
+	c++
+	fmt.Println("Called within increment", c)
+}

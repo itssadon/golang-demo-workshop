@@ -25,5 +25,6 @@ func main() {
 	// slice1()
 	// slice2()
 	// slice3()
-	pointer1()
+	// pointer1()
+	pointer2()
 }
