@@ -14,12 +14,21 @@ func pointer1() {
 
 func pointer2() {
 	c := 5
-	increment(c)
-	increment(c)
-	fmt.Println("Called from Pointer2 Func", c)
+	// increment(c)
+	// increment(c)
+	// fmt.Println("Called from Pointer2 Func", c)
+
+	incrementbyptr(&c)
+	incrementbyptr(&c)
+	fmt.Println("Called from Pointer2 Func:", c)
 }
 
 func increment(c int) {
 	c++
 	fmt.Println("Called within increment", c)
+}
+
+func incrementbyptr(c *int) {
+	*c++
+	fmt.Println("Called withing incrementbyptr", c)
 }
