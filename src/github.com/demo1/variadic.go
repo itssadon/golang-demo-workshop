@@ -15,5 +15,5 @@ func sum(nums ...int) {
 		total += num
 	}
 
-	fmt.Println("Total :", total)
+	fmt.Printf("Total : %d\n", total)
 }
