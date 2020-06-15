@@ -27,5 +27,6 @@ func main() {
 	// slice3()
 	// pointer1()
 	// pointer2()
-	variadic()
+	// variadic()
+	recursion()
 }
