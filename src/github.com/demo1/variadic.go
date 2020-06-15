@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func variadic() {
-	sum(1, 2, 3)
+	// sum(1, 2, 3)
+	n := []int{5, 6, 7}
+	sum(n...)
 }
 
 func sum(nums ...int) {
