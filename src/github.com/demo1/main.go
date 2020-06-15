@@ -23,5 +23,6 @@ func main() {
 	// matrix()
 	// imatrix(3)
 	// slice1()
-	slice2()
+	// slice2()
+	slice3()
 }
