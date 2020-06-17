@@ -29,5 +29,6 @@ func main() {
 	// pointer2()
 	// variadic()
 	// recursion()
-	recursionpattern(5)
+	// recursionpattern(5)
+	sortdemo()
 }
