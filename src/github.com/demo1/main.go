@@ -28,5 +28,6 @@ func main() {
 	// pointer1()
 	// pointer2()
 	// variadic()
-	recursion()
+	// recursion()
+	recursionpattern(5)
 }
