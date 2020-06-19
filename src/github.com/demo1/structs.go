@@ -16,7 +16,14 @@ type Shelf struct {
 func structdemo() {
 	book := Book{name: "Harry Potter", author: "J.K Rowling", pages: 800}
 	fmt.Println(book)
-	fmt.Println(book.name)
-	fmt.Println(book.author)
-	fmt.Println(book.pages)
+	fmt.Println("Name:", book.name)
+	fmt.Println("Author:", book.author)
+	fmt.Println("Pages:", book.pages)
+	fmt.Println()
+
+	fmt.Println("Book Shelf")
+	s := Shelf{position: 1, book: book}
+	fmt.Println(s)
+	fmt.Println("Book Position:", s.position)
+	fmt.Println("Book Details", s.book)
 }
