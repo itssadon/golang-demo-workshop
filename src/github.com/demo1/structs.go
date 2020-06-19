@@ -16,4 +16,7 @@ type Shelf struct {
 func structdemo() {
 	book := Book{name: "Harry Potter", author: "J.K Rowling", pages: 800}
 	fmt.Println(book)
+	fmt.Println(book.name)
+	fmt.Println(book.author)
+	fmt.Println(book.pages)
 }
