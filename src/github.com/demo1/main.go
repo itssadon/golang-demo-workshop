@@ -30,5 +30,6 @@ func main() {
 	// variadic()
 	// recursion()
 	// recursionpattern(5)
-	sortdemo()
+	// sortdemo()
+	structdemo()
 }
