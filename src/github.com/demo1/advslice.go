@@ -15,4 +15,8 @@ func adslice() {
 	b := make([]int, len(s))
 	copy(b, s)
 	fmt.Println("b =", b)
+
+	// cut out specific index
+	s = append(s[:2], s[4:]...)
+	fmt.Println("cut(3,4) s =", s)
 }
