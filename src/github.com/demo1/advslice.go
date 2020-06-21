@@ -10,4 +10,9 @@ func adslice() {
 	s = append(s, 4, 5, 6, 7, 8, 9)
 
 	fmt.Println("s =", s)
+
+	// copy slice
+	b := make([]int, len(s))
+	copy(b, s)
+	fmt.Println("b =", b)
 }
