@@ -31,5 +31,6 @@ func main() {
 	// recursion()
 	// recursionpattern(5)
 	// sortdemo()
-	structdemo()
+	// structdemo()
+	adslice()
 }
