@@ -11,7 +11,8 @@ import (
 func readfiledemo() {
 	// read()
 	// read1()
-	read2()
+	// read2()
+	read3()
 }
 
 func read() {
