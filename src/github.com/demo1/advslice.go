@@ -19,4 +19,14 @@ func adslice() {
 	// cut out specific index
 	s = append(s[:2], s[4:]...)
 	fmt.Println("cut(3,4) s =", s)
+
+	// delete by index
+	s = delbyindex(2, s)
+	fmt.Println("Deleted index 2 in s =", s)
+
+}
+
+func delbyindex(i int, a []int) []int {
+	a = append(a[:i], a[i+1:]...)
+	return a
 }
