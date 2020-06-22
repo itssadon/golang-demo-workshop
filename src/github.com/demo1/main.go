@@ -33,5 +33,6 @@ func main() {
 	// sortdemo()
 	// structdemo()
 	// adslice()
-	readfiledemo()
+	// readfiledemo()
+	writefiledemo()
 }
