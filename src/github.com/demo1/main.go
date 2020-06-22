@@ -34,5 +34,6 @@ func main() {
 	// structdemo()
 	// adslice()
 	// readfiledemo()
-	writefiledemo()
+	// writefiledemo()
+	mapdemo()
 }
