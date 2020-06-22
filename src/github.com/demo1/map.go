@@ -17,4 +17,12 @@ func mapdemo() {
 
 	delete(m, "b")
 	fmt.Println("Deleted m['b'] from Map m :", m)
+
+	B, isBPresent := m["b"]
+	C, isCPresent := m["c"]
+
+	fmt.Println("Value of B is :", B)
+	fmt.Println("isBPresent", isBPresent)
+	fmt.Println("Value of C is :", C)
+	fmt.Println("isCPresent", isCPresent)
 }
