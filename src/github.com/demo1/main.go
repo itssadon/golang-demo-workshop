@@ -36,5 +36,6 @@ func main() {
 	// readfiledemo()
 	// writefiledemo()
 	// mapdemo()
-	methoddemo()
+	// methoddemo()
+	interfacedemo()
 }
