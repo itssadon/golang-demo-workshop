@@ -11,4 +11,8 @@ func mapdemo() {
 	m["b"] = 13
 	m["c"] = 14
 	fmt.Println("Map m :", m)
+
+	A := m["a"]
+	fmt.Println("Value of m['a'] is ", A)
+
 }
