@@ -35,5 +35,6 @@ func main() {
 	// adslice()
 	// readfiledemo()
 	// writefiledemo()
-	mapdemo()
+	// mapdemo()
+	methoddemo()
 }
