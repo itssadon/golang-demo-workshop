@@ -38,5 +38,6 @@ func main() {
 	// mapdemo()
 	// methoddemo()
 	// interfacedemo()
-	goroutinedemo()
+	// goroutinedemo()
+	channeldemo()
 }
