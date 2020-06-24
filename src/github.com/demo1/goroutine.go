@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func goroutinedemo() {
-	count(5)
+	// count(5)
+	go count(5)
 }
 
 func count(num int) {
