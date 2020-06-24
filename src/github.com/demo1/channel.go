@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func channeldemo() {
-	ch := make(chan string)
+	ch := make(chan string, 1)
 
-	go func(msg string) {
+	func(msg string) {
 		ch <- msg
 	}("hello")
 
