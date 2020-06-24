@@ -37,5 +37,6 @@ func main() {
 	// writefiledemo()
 	// mapdemo()
 	// methoddemo()
-	interfacedemo()
+	// interfacedemo()
+	goroutinedemo()
 }
