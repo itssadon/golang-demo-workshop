@@ -5,7 +5,7 @@ import "fmt"
 func channeldemo() {
 	ch := make(chan string)
 
-	func(msg string) {
+	go func(msg string) {
 		ch <- msg
 	}("hello")
 
@@ -13,3 +13,6 @@ func channeldemo() {
 
 	fmt.Println(recv)
 }
+
+// go func
+// buffered
